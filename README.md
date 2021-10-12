@@ -1,0 +1,2 @@
+# minefinder
+MineFinder mini game
