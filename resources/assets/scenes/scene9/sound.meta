@@ -1,0 +1,10 @@
+{
+	class:class:entity.Entity,
+		
+	list:componentList: {
+		class:class:components.Sound,
+		Clip:clip:dream.wav,
+		float:gainDB:-27.0,
+	},	
+	
+}

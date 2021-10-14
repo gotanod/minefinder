@@ -1,0 +1,205 @@
+{
+	class:class:rules.RuleManager,
+
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eSound,
+		Class:actionComponentClass:components.Sound,
+		String:actionMethodName:playLoop,
+		String:outputEventName:soundStarted,
+	},
+
+
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		String:actionMethodName:delayTick,
+		String:outputEventName:tickKeyUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:tickKeyUpdated, 
+		String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		String:actionMethodName:delayTick,
+		String:outputEventName:tickKeyUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:tickKeyUpdated, 
+		String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		String:actionMethodName:readKey,
+		String:outputEventName:keyPressed,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:tickKeyUpdated, 
+		String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		String:actionMethodName:isAnyPointerPressed,
+		String:outputEventName:pointerPressed,
+	},
+	
+
+
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		String:actionMethodName:delayTick,
+		String:outputEventName:tickDrawUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:tickDrawUpdated, 
+		String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		String:actionMethodName:delayTick,
+		String:outputEventName:tickDrawUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:tickDrawUpdated, 
+		String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		String:actionMethodName:drawAll,
+		String:outputEventName:allDrawn,
+	},
+
+
+
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		String:actionMethodName:linkEntityManager,
+		String:outputEventName:entityManagerLinked,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		String:actionMethodName:linkOutputParameters,
+		String:outputEventName:outputParametersLinked,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:outputParametersLinked, 
+		String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		String:actionMethodName:getScreenObject,
+		String:outputEventName:outputScreenUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:outputScreenUpdated, 
+		String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		String:actionMethodName:setScreen,
+		String:outputEventName:inputMouseScreenUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:inputMouseScreenUpdated, 
+		String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		String:actionMethodName:addListener,
+		String:outputEventName:mouseListenerReady,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:outputScreenUpdated, 
+		String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		String:actionMethodName:setScreen,
+		String:outputEventName:inputScreenUpdated,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:inputScreenUpdated, 
+		String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		String:actionMethodName:addListener,
+		String:outputEventName:keyListenerReady,
+	},
+	
+
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:scene2Loaded, 
+		String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		String:actionMethodName:startGame,
+		String:outputEventName:gameStarted,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:gameStarted, 
+		String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		String:actionMethodName:getMap,
+		String:outputEventName:mapGot,
+	},
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:mapGot, 
+		String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.MineFinderMap,
+		String:actionMethodName:updateMap,
+		String:outputEventName:mapUpdated,
+	},
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

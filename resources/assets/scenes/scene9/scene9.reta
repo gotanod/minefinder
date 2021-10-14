@@ -1,0 +1,236 @@
+{
+	class:class:rules.RuleManager,
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputScreenUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:setScreen,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:inputMouseScreenUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eSound,
+		Class:actionComponentClass:components.Sound,
+		java.lang.String:actionMethodName:playLoop,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:soundStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickDrawUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:inputScreenUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:addListener,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:keyListenerReady,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eTickMouse,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickMouseUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputScreenUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:setScreen,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:inputScreenUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputParametersLinked,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:getScreenObject,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:outputScreenUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eTickMouse,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickMouseUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:keyPressed,
+		java.lang.String:actionEntityName:eScene2,
+		Class:actionComponentClass:scene.Scene,
+		java.lang.String:actionMethodName:load,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:scene2Loaded,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickKeyUpdated,
+		java.lang.String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickKeyUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickDrawUpdated,
+		java.lang.String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickDrawUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickKeyUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:readKey,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:keyPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:isAnyPointerPressed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:pointerPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:linkEntityManager,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:entityManagerLinked,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickDrawUpdated,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:drawAll,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:allDrawn,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:dummy01,
+		java.lang.String:actionEntityName:eScene2,
+		Class:actionComponentClass:scene.Scene,
+		java.lang.String:actionMethodName:load,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:scene2Loaded,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:ePassthroughSplash,
+		Class:actionComponentClass:components.Passthrough,
+		java.lang.String:actionMethodName:passDelayed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:dummy01,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:linkOutputParameters,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:outputParametersLinked,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:inputMouseScreenUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:addListener,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mouseListenerReady,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:sceneOverLoaded,
+		java.lang.String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickKeyUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:pointerPressed,
+		java.lang.String:actionEntityName:eScene2,
+		Class:actionComponentClass:scene.Scene,
+		java.lang.String:actionMethodName:load,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:scene2Loaded,
+	},
+
+}
+

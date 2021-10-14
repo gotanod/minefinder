@@ -112,16 +112,19 @@ public class Logic {
 	}
 	
 	public void unhide(int row, int col) {
-		if ( col >= 0 && col < this.cols &&
-				row >= 0 && row < this.rows ) {
-			int pos = col + row * this.cols;
-			this.map[pos].unhide();	
-			if ( this.map[pos].getNearbyMines() == 0 ) {
-				clearArea8(pos);
+		// avoid unhide during WIN/LOST state
+		if ( this.state == LogicState.RUNING ) {
+			if ( col >= 0 && col < this.cols &&
+					row >= 0 && row < this.rows ) {
+				int pos = col + row * this.cols;
+				this.map[pos].unhide();	
+				if ( this.map[pos].getNearbyMines() == 0 ) {
+					clearArea8(pos);
+				}
 			}
+			// Change state
+			changeState(row, col);
 		}
-		// Change state
-		changeState(row, col);
 	}
 	
 	private void changeState(int row, int col) {
@@ -183,6 +186,58 @@ public class Logic {
 	}
 
 
+	/**************************
+	 * ACTIONS
+	 **************************/
+	
+	public Object startGame(Object datIn) {
+		
+		newMap(this.rows, this.cols, this.numberMines);		
+		
+		return true;
+	}
+	
+	public Object getMap(Object datIn) {
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for (int row=0;row<this.rows; row++) {
+			for (int col=0;col<this.cols; col++) {
+				Cell cell = this.map[col + row * this.cols];
+				sb.append(cell.draw());
+			}
+		}
+		//System.out.println(sb.toString());
+		return sb.toString();
+	}
+	
+	public Object unhide(Object dataIn) {
+		double[] point = (double[]) dataIn;
+		float xMouse = (float) point[0];
+		float yMouse = (float) point[1];
+		
+		
+		float cellWidth = 1.0f / this.cols;
+		float cellHeight = 1.0f / this.rows;
+		
+		int col = (int) Math.floor(xMouse / cellWidth);
+		int row = (int) Math.floor(yMouse / cellHeight);
+		System.out.println("Unhide " + row + ", " + col);
+		unhide(row, col);		
+		
+		return true;
+	}
+
+	public Object isGameOver(Object dataIn) {
+		Boolean out = null;
+		
+		if ( this.state == LogicState.LOST ) {
+			out = true;
+		}
+		
+		return out;
+	}
+	
 	/**************************
 	 * TEXT DRAWING
 	 **************************/

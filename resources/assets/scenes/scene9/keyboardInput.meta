@@ -1,0 +1,15 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.KeyboardInput,
+		String:filterInput:,
+		object:input:{
+			class:class:gateways.screen.GatewayCanvasAWTInput,
+			Integer:VK_RETURN:13,
+			Integer:VK_LINE_FEED:10,
+		},
+	},
+	
+}
+		

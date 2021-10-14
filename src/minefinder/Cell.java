@@ -66,7 +66,7 @@ public class Cell {
 				out = "*";
 			} else {
 				if ( this.nearbyMines == 0 ) {
-					out = ".";
+					out = "0";
 				} else {
 					out = String.valueOf(this.nearbyMines);
 				}

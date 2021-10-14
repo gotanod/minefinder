@@ -1,0 +1,12 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.MouseInput,
+		object:input:{
+			class:class:gateways.screen.GatewayCanvasAWTInputMouse,
+		},
+	},
+	
+}
+		

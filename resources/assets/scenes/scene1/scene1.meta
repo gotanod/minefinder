@@ -1,0 +1,10 @@
+eOut:scene1/output.meta
+eIn:scene1/keyboardInput.meta
+eInMouse:scene1/mouseInput.meta
+eTickDraw:scene1/tickDraw.meta
+eTickKey:scene1/tickKey.meta
+eTickMouse:scene1/tickMouse.meta
+ePassthroughSplash:scene1/passthroughSplash.meta
+eSound:scene1/sound.meta
+eSplashForeground:scene1/splash.meta
+eScene2:scene2/sceneLoader2.meta

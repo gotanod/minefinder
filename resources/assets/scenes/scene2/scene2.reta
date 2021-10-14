@@ -1,0 +1,313 @@
+{
+	class:class:rules.RuleManager,
+	
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:gameOver,
+		java.lang.String:actionEntityName:eSceneOver,
+		Class:actionComponentClass:scene.Scene,
+		java.lang.String:actionMethodName:load,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:sceneOverLoaded,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eSound,
+		Class:actionComponentClass:components.Sound,
+		java.lang.String:actionMethodName:playLoop,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:soundStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickKeyUpdated,
+		java.lang.String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickKeyUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickDrawUpdated,
+		java.lang.String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickDrawUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eTickDraw,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickDrawUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:getMiddleButtonID,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:middleButtonIDGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:leftButtonIDGot,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:isPointerPressed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:leftPointerPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:getLeftButtonID,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:leftButtonIDGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:mapGot,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.MineFinderMap,
+		java.lang.String:actionMethodName:updateMap,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputScreenUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:setScreen,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:inputMouseScreenUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:inputMouseScreenUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:addListener,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mouseListenerReady,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickDrawUpdated,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:drawAll,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:allDrawn,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:leftPointerPressed,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:unhide,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:cellUnhidden,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:rightButtonIDGot,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:isPointerPressed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:rightPointerPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:startGame,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eInMouse,
+		Class:actionComponentClass:components.MouseInput,
+		java.lang.String:actionMethodName:getRightButtonID,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:rightButtonIDGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:linkOutputParameters,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:outputParametersLinked,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputParametersLinked,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:getScreenObject,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:outputScreenUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eTickMouse,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickMouseUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:inputScreenUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:addListener,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:keyListenerReady,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eOut,
+		Class:actionComponentClass:components.Output,
+		java.lang.String:actionMethodName:linkEntityManager,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:entityManagerLinked,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:cellUnhidden,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:isGameOver,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameOver,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickKeyUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:readKey,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:keyPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:gameStarted,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:getMap,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:cellUnhidden,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:getMap,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:tickMouseUpdated,
+		java.lang.String:actionEntityName:eTickMouse,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickMouseUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:scene2Loaded,
+		java.lang.String:actionEntityName:eTickKey,
+		Class:actionComponentClass:components.Tick,
+		java.lang.String:actionMethodName:delayTick,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:tickKeyUpdated,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:outputScreenUpdated,
+		java.lang.String:actionEntityName:eIn,
+		Class:actionComponentClass:components.KeyboardInput,
+		java.lang.String:actionMethodName:setScreen,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:inputScreenUpdated,
+	},
+
+}
+

@@ -1,0 +1,9 @@
+eOut:scene2/output.meta
+eIn:scene2/keyboardInput.meta
+eInMouse:scene2/mouseInput.meta
+eTickDraw:scene2/tickDraw.meta
+eTickKey:scene2/tickKey.meta
+eTickMouse:scene2/tickMouse.meta
+eSound:scene2/sound.meta
+eLogic:scene2/logic.meta
+eSceneOver:scene9/sceneLoader9.meta

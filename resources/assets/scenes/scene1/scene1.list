@@ -1,0 +1,3085 @@
+{
+	class:class:entity.EntityList,
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:022c7baa-9cb3-4a86-8882-36985a76a158,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;3;5;8;0;f;b;3;-;3;1;e;1;-;4;9;a;7;-;a;1;8;5;-;c;f;d;4;3;d;9;5;f;2;b;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;9;4;b;c;8;5;7;-;1;c;d;a;-;4;3;b;6;-;8;8;8;0;-;e;d;2;5;c;4;3;c;1;f;4;0,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.61614585,
+			float:yTopLeft:0.16907498,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.7171875;0.038597584;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eInMouse.components.MouseInput.setScreen,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:17c422bd-7340-4b5f-9302-9ac992a74fe6,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;1;3;0;d;6;a;2;-;2;f;7;4;-;4;b;3;e;-;8;2;9;0;-;9;1;0;b;7;3;f;6;a;5;4;9,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.1328125,
+			float:yTopLeft:0.028208375,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.23385414;-0.10226902;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eSound.components.Sound.playLoop,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:2461ea7a-ca3a-467a-b611-63c8cb67c1ee,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;6;c;9;2;0;3;c;-;b;8;d;a;-;4;a;1;1;-;8;f;1;e;-;4;5;0;3;e;9;3;c;0;b;e;d,
+
+			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;e;b;c;9;9;0;b;-;4;e;2;a;-;4;5;c;9;-;b;d;a;f;-;5;4;5;e;3;e;7;1;7;6;0;b,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;3;f;c;6;4;b;d;-;4;8;9;e;-;4;6;2;9;-;9;6;0;2;-;0;4;1;8;d;2;3;2;5;f;5;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;e;b;c;9;9;0;b;-;4;e;2;a;-;4;5;c;9;-;b;d;a;f;-;5;4;5;e;3;e;7;1;7;6;0;b,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26041666,
+			float:yTopLeft:0.8754332,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.3614583;0.7449558;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:tickMouseUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:28f261f0-0716-4aeb-98ea-7575a3fa3763,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;7;8;b;f;d;6;6;-;b;b;2;8;-;4;d;5;3;-;9;f;6;c;-;0;2;2;5;2;2;2;1;e;3;c;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.12916666,
+			float:yTopLeft:0.4397956,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.23020831;0.3093182;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickDraw.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:2d27ff10-d1d2-41ff-94e8-35116c8f34b3,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;8;4;3;1;a;2;c;-;8;c;6;9;-;4;9;e;9;-;9;0;9;b;-;b;4;a;3;e;d;0;6;1;6;d;9,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:4;4;2;9;3;d;b;1;-;7;a;f;0;-;4;b;4;2;-;9;d;5;2;-;c;5;8;0;0;2;0;8;0;2;c;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.8609374,
+			float:yTopLeft:0.25536504,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.96197903;0.124887645;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eIn.components.KeyboardInput.addListener,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:2ebc990b-4e2a-45c9-bdaf-545e3e71760b,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;4;6;1;e;a;7;a;-;c;a;3;a;-;4;6;7;a;-;b;6;1;1;-;6;3;c;8;c;b;6;7;c;1;e;e,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;4;6;1;e;a;7;a;-;c;a;3;a;-;4;6;7;a;-;b;6;1;1;-;6;3;c;8;c;b;6;7;c;1;e;e,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26145837,
+			float:yTopLeft:0.77319384,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.3625;0.6427164;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickMouse.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:30f71c90-b647-4704-af53-74ae873d1682,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;3;5;8;0;f;b;3;-;3;1;e;1;-;4;9;a;7;-;a;1;8;5;-;c;f;d;4;3;d;9;5;f;2;b;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;8;4;3;1;a;2;c;-;8;c;6;9;-;4;9;e;9;-;9;0;9;b;-;b;4;a;3;e;d;0;6;1;6;d;9,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.621875,
+			float:yTopLeft:0.28015575,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.7229166;0.14967835;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eIn.components.KeyboardInput.setScreen,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:44293db1-7af0-4b42-9d52-c580020802c4,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;d;2;7;f;f;1;0;-;d;1;d;2;-;4;1;f;f;-;9;4;e;8;-;3;5;1;1;6;c;8;f;3;4;b;3,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.9817708,
+			float:yTopLeft:0.25173312,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;1.0828124;0.121255726;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:keyListenerReady,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:4776ba96-ade1-4df1-946e-a2e69ae6e10d,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;c;2;3;f;c;3;c;-;6;8;4;a;-;4;3;e;9;-;b;3;3;4;-;4;8;d;2;0;e;a;6;3;8;2;e,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;3;5;8;0;f;b;3;-;3;1;e;1;-;4;9;a;7;-;a;1;8;5;-;c;f;d;4;3;d;9;5;f;2;b;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.38177088,
+			float:yTopLeft:0.24644592,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.48281252;0.115968525;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eOut.components.Output.getScreenObject,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:4f53a57b-8067-456e-8454-1d65c35e9506,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;c;d;6;2;5;1;d;-;d;5;7;7;-;4;7;0;f;-;8;0;3;a;-;b;1;6;a;2;7;d;1;b;7;0;8,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;3;5;8;4;f;c;b;-;4;c;7;1;-;4;1;1;4;-;8;d;6;7;-;f;d;6;6;6;9;f;7;d;7;1;0,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.27291664,
+			float:yTopLeft:1.0349367,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.3739583;0.90445924;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:dummy01,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:58f3172a-2673-4b59-8b47-1219f505b723,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;0;a;a;7;5;7;8;-;7;9;3;8;-;4;b;2;5;-;a;2;6;0;-;2;8;2;3;9;2;e;2;4;1;2;c,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26041666,
+			float:yTopLeft:0.13173325,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.3614583;0.001255855;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:entityManagerLinked,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:73580fb3-31e1-49a7-a185-cfd43d95f2b6,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:4;7;7;6;b;a;9;6;-;a;d;e;1;-;4;d;f;1;-;9;4;6;e;-;a;2;e;6;9;a;e;6;e;1;0;d,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:0;2;2;c;7;b;a;a;-;9;c;b;3;-;4;a;8;6;-;8;8;8;2;-;3;6;9;8;5;a;7;6;a;1;5;8,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:3;0;f;7;1;c;9;0;-;b;6;4;7;-;4;7;0;4;-;a;f;5;3;-;7;4;a;e;8;7;3;d;1;6;8;2,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.5,
+			float:yTopLeft:0.2535248,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.6010417;0.12304741;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:outputScreenUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:76c9203c-b8da-4a11-8f1e-4503e93c0bed,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;4;6;1;e;a;7;a;-;c;a;3;a;-;4;6;7;a;-;b;6;1;1;-;6;3;c;8;c;b;6;7;c;1;e;e,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.13229166,
+			float:yTopLeft:0.789747,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.2333333;0.6592696;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickMouse.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:7d86d1a2-b25a-4b06-8632-c0af9d4865ab,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;e;c;7;3;6;1;3;-;9;9;d;6;-;4;1;b;1;-;b;4;a;f;-;8;1;7;9;6;f;d;d;f;3;e;5,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;c;5;b;9;4;0;0;-;c;7;8;a;-;4;9;c;6;-;b;2;2;3;-;7;f;d;0;6;3;a;f;5;6;e;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.6374999,
+			float:yTopLeft:0.63174284,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.7385416;0.5012654;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eScene2.scene.Scene.load,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:7e54491e-ef11-410a-8440-52a10e3825c6,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;b;b;9;3;e;9;9;-;a;a;f;7;-;4;3;4;9;-;9;8;0;c;-;a;1;a;5;3;1;a;a;e;5;4;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;b;b;9;3;e;9;9;-;a;a;f;7;-;4;3;4;9;-;9;8;0;c;-;a;1;a;5;3;1;a;a;e;5;4;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26093754,
+			float:yTopLeft:0.5816165,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.3619792;0.45113912;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickKey.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:7fccb002-77fe-4a02-ba70-0305a876cd08,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;e;9;8;7;e;5;b;-;0;2;1;4;-;4;1;1;7;-;9;0;8;6;-;7;f;8;a;6;6;c;4;4;1;e;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.9838542,
+			float:yTopLeft:0.1357838,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;1.0848958;0.005306408;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:mouseListenerReady,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:82be8c52-bf66-4edc-8d2a-29ca388d1906,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;7;8;b;f;d;6;6;-;b;b;2;8;-;4;d;5;3;-;9;f;6;c;-;0;2;2;5;2;2;2;1;e;3;c;4,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;7;8;b;f;d;6;6;-;b;b;2;8;-;4;d;5;3;-;9;f;6;c;-;0;2;2;5;2;2;2;1;e;3;c;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26770833,
+			float:yTopLeft:0.3614509,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.36874998;0.23097351;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickDraw.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:83da46e2-23a7-46a9-9e0c-0fa06f7b9feb,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;b;b;9;3;e;9;9;-;a;a;f;7;-;4;3;4;9;-;9;8;0;c;-;a;1;a;5;3;1;a;a;e;5;4;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;e;c;7;3;6;1;3;-;9;9;d;6;-;4;1;b;1;-;b;4;a;f;-;8;1;7;9;6;f;d;d;f;3;e;5,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.39114577,
+			float:yTopLeft:0.64322305,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.4921874;0.5127456;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eIn.components.KeyboardInput.readKey,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:83fc64bd-489e-4629-9602-0418d2325f56,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;4;6;1;e;a;7;a;-;c;a;3;a;-;4;6;7;a;-;b;6;1;1;-;6;3;c;8;c;b;6;7;c;1;e;e,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;8;0;2;4;e;8;3;-;9;9;2;d;-;4;f;9;2;-;9;5;d;b;-;5;3;4;c;5;0;d;3;a;9;6;3,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.3890625,
+			float:yTopLeft:0.8725707,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.49010414;0.7420933;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eInMouse.components.MouseInput.isAnyPointerPressed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:894bc857-1cda-43b6-8880-ed25c43c1f40,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:0;2;2;c;7;b;a;a;-;9;c;b;3;-;4;a;8;6;-;8;8;8;2;-;3;6;9;8;5;a;7;6;a;1;5;8,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;e;9;8;7;e;5;b;-;0;2;1;4;-;4;1;1;7;-;9;0;8;6;-;7;f;8;a;6;6;c;4;4;1;e;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.734375,
+			float:yTopLeft:0.1596008,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.8354167;0.029123396;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:inputMouseScreenUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:9bb93e99-aaf7-4349-980c-a1a531aae546,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;f;8;7;3;7;b;b;-;7;2;e;2;-;4;6;3;c;-;a;f;3;a;-;4;f;3;3;4;6;d;7;f;a;d;5,
+
+			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;e;5;4;4;9;1;e;-;e;f;1;1;-;4;1;0;a;-;8;4;4;0;-;5;2;a;1;0;e;3;8;2;5;c;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;e;5;4;4;9;1;e;-;e;f;1;1;-;4;1;0;a;-;8;4;4;0;-;5;2;a;1;0;e;3;8;2;5;c;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;3;d;a;4;6;e;2;-;2;3;a;7;-;4;6;a;9;-;9;e;0;c;-;0;f;a;0;6;f;7;b;9;f;e;b,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.2619792,
+			float:yTopLeft:0.6796981,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.36302084;0.5492207;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:tickKeyUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:a0aa7578-7938-4b25-a260-282392e2412c,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:5;8;f;3;1;7;2;a;-;2;6;7;3;-;4;b;5;9;-;8;b;4;7;-;1;2;1;9;f;5;0;5;b;7;2;3,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.13541667,
+			float:yTopLeft:0.16165535,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.23645832;0.031177953;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eOut.components.Output.linkEntityManager,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:a1e458f2-8bbb-4c60-80ac-5db107a28348,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;7;8;b;f;d;6;6;-;b;b;2;8;-;4;d;5;3;-;9;f;6;c;-;0;2;2;5;2;2;2;1;e;3;c;4,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;8;1;2;3;0;e;5;-;c;2;2;c;-;4;d;4;9;-;b;7;3;4;-;8;b;d;d;4;7;5;c;a;e;7;e,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.3932292,
+			float:yTopLeft:0.44642657,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.49427083;0.31594917;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eOut.components.Output.drawAll,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:a8024e83-992d-4f92-95db-534c50d3a963,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;3;f;c;6;4;b;d;-;4;8;9;e;-;4;6;2;9;-;9;6;0;2;-;0;4;1;8;d;2;3;2;5;f;5;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;3;0;8;0;c;d;9;-;c;1;7;6;-;4;3;3;8;-;a;4;7;c;-;5;9;d;d;d;c;f;e;4;7;a;b,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.5234376,
+			float:yTopLeft:0.8767282,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.6244793;0.74625075;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:pointerPressed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:ac5b9400-c78a-49c6-b223-7fd063af56e4,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;d;8;6;d;1;a;2;-;b;2;5;a;-;4;b;0;6;-;8;6;3;2;-;c;0;a;f;9;d;4;8;6;5;a;b,
+
+			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;3;0;8;0;c;d;9;-;c;1;7;6;-;4;3;3;8;-;a;4;7;c;-;5;9;d;d;d;c;f;e;4;7;a;b,
+
+			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;3;5;8;4;f;c;b;-;4;c;7;1;-;4;1;1;4;-;8;d;6;7;-;f;d;6;6;6;9;f;7;d;7;1;0,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.80625004,
+			float:yTopLeft:0.7839044,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.90729165;0.653427;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:scene2Loaded,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:aed51f4b-2641-4299-9fbd-267dbd4479d1,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:1;7;c;4;2;2;b;d;-;7;3;4;0;-;4;b;5;f;-;9;3;0;2;-;9;a;c;9;9;2;a;7;4;f;e;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;f;8;7;3;7;b;b;-;7;2;e;2;-;4;6;3;c;-;a;f;3;a;-;4;f;3;3;4;6;d;7;f;a;d;5,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;8;f;2;6;1;f;0;-;0;7;1;6;-;4;a;e;b;-;9;8;e;a;-;7;5;7;5;a;3;f;a;3;7;6;3,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;0;a;a;7;5;7;8;-;7;9;3;8;-;4;b;2;5;-;a;2;6;0;-;2;8;2;3;9;2;e;2;4;1;2;c,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;f;a;4;9;b;9;c;-;2;6;5;4;-;4;d;e;6;-;b;6;e;e;-;4;d;0;b;f;3;7;7;2;6;a;4,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;c;d;6;2;5;1;d;-;d;5;7;7;-;4;7;0;f;-;8;0;3;a;-;b;1;6;a;2;7;d;1;b;7;0;8,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;6;c;9;2;0;3;c;-;b;8;d;a;-;4;a;1;1;-;8;f;1;e;-;4;5;0;3;e;9;3;c;0;b;e;d,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:5.2083284E-4,
+			float:yTopLeft:0.49974686,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.10156248;0.36926946;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:scene1Loaded,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:b3584fcb-4c71-4114-8d67-fd6669f7d710,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:4;f;5;3;a;5;7;b;-;8;0;6;7;-;4;5;6;e;-;8;4;5;4;-;1;d;6;5;c;3;5;e;9;5;0;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;c;5;b;9;4;0;0;-;c;7;8;a;-;4;9;c;6;-;b;2;2;3;-;7;f;d;0;6;3;a;f;5;6;e;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.6427083,
+			float:yTopLeft:1.0614898,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.74375;0.9310124;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eScene2.scene.Scene.load,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:b78bfd66-bb28-4d53-9f6c-02252221e3c4,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;8;f;2;6;1;f;0;-;0;7;1;6;-;4;a;e;b;-;9;8;e;a;-;7;5;7;5;a;3;f;a;3;7;6;3,
+
+			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;2;b;e;8;c;5;2;-;b;f;6;6;-;4;e;d;c;-;8;d;2;a;-;2;9;c;a;3;8;8;d;1;9;0;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;2;b;e;8;c;5;2;-;b;f;6;6;-;4;e;d;c;-;8;d;2;a;-;2;9;c;a;3;8;8;d;1;9;0;6,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;1;e;4;5;8;f;2;-;8;b;b;b;-;4;c;6;0;-;8;0;a;c;-;5;d;b;1;0;7;a;2;8;3;4;8,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.26510417,
+			float:yTopLeft:0.46148005,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.36614582;0.33100265;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:tickDrawUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:bcd6251d-d577-470f-803a-b16a27d1b708,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:4;f;5;3;a;5;7;b;-;8;0;6;7;-;4;5;6;e;-;8;4;5;4;-;1;d;6;5;c;3;5;e;9;5;0;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.13125001,
+			float:yTopLeft:0.9850145,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.23229165;0.8545371;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:ePassthroughSplash.components.Passthrough.passDelayed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:bec73613-99d6-41b1-b4af-81796fddf3e5,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;3;d;a;4;6;e;2;-;2;3;a;7;-;4;6;a;9;-;9;e;0;c;-;0;f;a;0;6;f;7;b;9;f;e;b,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;d;8;6;d;1;a;2;-;b;2;5;a;-;4;b;0;6;-;8;6;3;2;-;c;0;a;f;9;d;4;8;6;5;a;b,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.51614577,
+			float:yTopLeft:0.6279068,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.6171874;0.4974294;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:keyPressed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:bfa49b9c-2654-4de6-b6ee-4d0bf37726a4,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:f;c;2;3;f;c;3;c;-;6;8;4;a;-;4;3;e;9;-;b;3;3;4;-;4;8;d;2;0;e;a;6;3;8;2;e,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.13541666,
+			float:yTopLeft:0.28194746,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.2364583;0.15147007;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eOut.components.Output.linkOutputParameters,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:d130d6a2-2f74-4b3e-8290-910b73f6a549,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:1;7;c;4;2;2;b;d;-;7;3;4;0;-;4;b;5;f;-;9;3;0;2;-;9;a;c;9;9;2;a;7;4;f;e;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.27968752,
+			float:yTopLeft:0.004391432,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.38072917;-0.12608597;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:soundStarted,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:d81230e5-c22c-4d49-b734-8bdd475cae7e,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;1;e;4;5;8;f;2;-;8;b;b;b;-;4;c;6;0;-;8;0;a;c;-;5;d;b;1;0;7;a;2;8;3;4;8,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.5140624,
+			float:yTopLeft:0.40676737,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.6151041;0.27628997;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:allDrawn,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:de987e5b-0214-4117-9086-7f8a66c441e6,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;9;4;b;c;8;5;7;-;1;c;d;a;-;4;3;b;6;-;8;8;8;0;-;e;d;2;5;c;4;3;c;1;f;4;0,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:7;f;c;c;b;0;0;2;-;7;7;f;e;-;4;a;0;2;-;b;a;7;0;-;0;3;0;5;a;8;7;6;c;d;0;8,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.8604167,
+			float:yTopLeft:0.13357347,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.9614583;0.0030960739;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eInMouse.components.MouseInput.addListener,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:df8737bb-72e2-463c-af3a-4f3346d7fad5,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;e;d;5;1;f;4;b;-;2;6;4;1;-;4;2;9;9;-;9;f;b;d;-;2;6;7;d;b;d;4;4;7;9;d;1,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;b;b;9;3;e;9;9;-;a;a;f;7;-;4;3;4;9;-;9;8;0;c;-;a;1;a;5;3;1;a;a;e;5;4;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.12656248,
+			float:yTopLeft:0.6151705,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.22760412;0.48469308;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eTickKey.components.Tick.delayTick,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:f3080cd9-c176-4338-a47c-59dddcfe47ab,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;8;0;2;4;e;8;3;-;9;9;2;d;-;4;f;9;2;-;9;5;d;b;-;5;3;4;c;5;0;d;3;a;9;6;3,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:a;c;5;b;9;4;0;0;-;c;7;8;a;-;4;9;c;6;-;b;2;2;3;-;7;f;d;0;6;3;a;f;5;6;e;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.6453125,
+			float:yTopLeft:0.86595917,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.7463541;0.73548174;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eScene2.scene.Scene.load,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:f8431a2c-8c69-49e9-909b-b4a3ed0616d9,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:3;0;f;7;1;c;9;0;-;b;6;4;7;-;4;7;0;4;-;a;f;5;3;-;7;4;a;e;8;7;3;d;1;6;8;2,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;d;2;7;f;f;1;0;-;d;1;d;2;-;4;1;f;f;-;9;4;e;8;-;3;5;1;1;6;c;8;f;3;4;b;3,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.7395833,
+			float:yTopLeft:0.265813,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.8406249;0.1353356;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:inputScreenUpdated,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:fc23fc3c-684a-43e9-b334-48d20ea6382e,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:b;f;a;4;9;b;9;c;-;2;6;5;4;-;4;d;e;6;-;b;6;e;e;-;4;d;0;b;f;3;7;7;2;6;a;4,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:4;7;7;6;b;a;9;6;-;a;d;e;1;-;4;d;f;1;-;9;4;6;e;-;a;2;e;6;9;a;e;6;e;1;0;d,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.25625,
+			float:yTopLeft:0.24520937,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.1;0.0;0.0;0.0;0.08;0.0;0.35729164;0.11473197;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:outputParametersLinked,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+}
+

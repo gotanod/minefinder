@@ -1,0 +1,24 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.Output,
+		object:output:{
+			class:class:gateways.screen.GatewayScreenCanvasAWTOutput,		
+		},
+		list:consoleParametersList: {
+			class:class:components.OutputParameters,
+			int:pxScreenWidth:1280,
+			int:pxScreenHeight:720,
+			int:pxInnerWidth:1280,
+			int:pxInnerHeight:720,
+			String:windowTitle:MINE FINDER v0.1.0,
+			String:fontName:NotoSans-Black.ttf,
+			ByteArray:fontColor:127;127;-128,
+	        double:fontRatioHorizontalVertical:0.45,
+		    String:iconFileName:assets/images/icon.png,			
+		},
+	},
+	
+}
+		

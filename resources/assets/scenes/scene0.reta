@@ -1,0 +1,14 @@
+{
+	class:class:rules.RuleManager,
+
+	list:ruleList:{
+		class:class:rules.Rule,
+		
+		String:inputEventName:gameStarted, 
+		String:actionEntityName:eScene1,
+		Class:actionComponentClass:scene.Scene,
+		String:actionMethodName:load,
+		String:outputEventName:scene1Loaded,
+	},
+	
+}

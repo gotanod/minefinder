@@ -1,0 +1,44 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:minefinder.Logic,
+		
+		Integer:rows:15,
+		Integer:cols:30,
+		Integer:numberMines:40,
+	},
+	
+	
+	list:componentList: {
+		class:class:components.Transformation,
+		Float:xTopLeft:0.0,
+		Float:yTopLeft:0.0,
+		Float:xWidth:1.0,
+		Float:yHeight:1.0,
+		Float:zPlane:0.0,
+	},
+	
+	list:componentList: {
+		class:class:components.MineFinderMap,	
+	
+		Image:image:space_buttons.png,
+		Integer:tilesPerRow:8,
+		Integer:tilesPerCol:8,
+		char:asciiIndexBomb:*,
+		int:tileIndexBomb:58,
+		char:asciiIndexFlag:^,
+		int:tileIndexFlag:60,
+		char:asciiIndexHidden:#,
+		int:tileIndexHidden:59,
+		char:asciiIndex0:0,		
+		int:tileIndex0:48,		
+		
+		Integer:mapRows:15,
+		Integer:mapCols:30,		
+	},
+	
+	
+	
+}
+		

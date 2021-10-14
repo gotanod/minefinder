@@ -1,0 +1,10 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.Tick,
+		long:tickDelay:10000000,
+	},
+	
+}
+		

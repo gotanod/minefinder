@@ -1,0 +1,9 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.Passthrough,
+		long:passDelay:5000000000,
+	},
+	
+}

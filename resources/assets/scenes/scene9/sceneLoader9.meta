@@ -1,0 +1,12 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:scene.Scene,
+		String:entityManagerName:scene9/scene9.meta,
+		String:ruleManagerName:scene9/scene9.reta,
+		enum:storageType:permanentStorage.PermanentStorageType.RESOURCE,
+	},
+	
+}
+		

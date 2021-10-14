@@ -1,0 +1,18 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.Transformation,
+		Float:xTopLeft:0.0,
+		Float:yTopLeft:0.0,
+		Float:xWidth:1.0,
+		Float:yHeight:1.0,
+		Float:zPlane:0.0,
+	},
+		
+	list:componentList: {
+		class:class:components.ImageSimple,
+		Image:image:gameover.png,
+	},	
+	
+}
