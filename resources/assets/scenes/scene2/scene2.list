@@ -30,7 +30,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.011855632;0.53249156;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.08728388;0.5706663;1.0,
 			},
 		},
 		list:componentList:{
@@ -98,8 +98,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.432003,
-			float:yTopLeft:0.73904306,
+			float:xTopLeft:1.7418666,
+			float:yTopLeft:1.1057236,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -110,7 +110,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.75217927;0.43862763;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;1.330522;0.82421017;1.0,
 			},
 		},
 		list:componentList:{
@@ -190,7 +190,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.32249245;-0.24233039;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.2917254;-0.37469724;1.0,
 			},
 		},
 		list:componentList:{
@@ -265,7 +265,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.2226693;0.047108725;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.16993074;-0.02155134;1.0,
 			},
 		},
 		list:componentList:{
@@ -345,7 +345,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.23359859;0.2632073;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.18326563;0.24211147;1.0,
 			},
 		},
 		list:componentList:{
@@ -408,8 +408,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.6012855,
-			float:yTopLeft:1.2142315,
+			float:xTopLeft:1.583695,
+			float:yTopLeft:1.5407279,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -420,7 +420,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.8914484;0.82956636;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;1.171752;1.26086;1.0,
 			},
 		},
 		list:componentList:{
@@ -495,7 +495,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.0026732981;-0.12807891;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.09848735;-0.23529851;1.0,
 			},
 		},
 		list:componentList:{
@@ -544,6 +544,86 @@
 	list:entityList:{
 		class:class:entity.Entity,
 
+		java.lang.String:ID:16906b99-a5ed-4d7e-a594-972f36553f10,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:8;3;e;6;e;8;b;8;-;d;f;4;e;-;4;3;3;c;-;b;3;d;c;-;7;f;a;0;0;e;2;d;6;1;8;5,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:5;a;c;a;b;2;b;4;-;8;a;b;0;-;4;c;3;c;-;b;2;e;8;-;2;b;9;a;9;9;1;6;e;2;d;1,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:1.0269314,
+			float:yTopLeft:0.9060646,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.61288226;0.62379587;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:mapPressed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
 		java.lang.String:ID:1d5b0962-4099-42dd-9f86-77b2ad807540,
 		list:componentList:{
 			class:class:components.Connector,
@@ -575,7 +655,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.2227459;-0.16614988;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.1700242;-0.28174907;1.0,
 			},
 		},
 		list:componentList:{
@@ -655,7 +735,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.32791883;-0.08791989;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.29834613;-0.18630034;1.0,
 			},
 		},
 		list:componentList:{
@@ -735,7 +815,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.10946283;0.5316359;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.031807035;0.5696223;1.0,
 			},
 		},
 		list:componentList:{
@@ -810,7 +890,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.39496043;0.11652604;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.5836419;0.06314501;1.0,
 			},
 		},
 		list:componentList:{
@@ -890,7 +970,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.085276574;0.61575246;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.20579532;0.67225325;1.0,
 			},
 		},
 		list:componentList:{
@@ -939,6 +1019,86 @@
 	list:entityList:{
 		class:class:entity.Entity,
 
+		java.lang.String:ID:27be6d0c-3b0e-433e-a644-7ca4fd3a2646,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;2;d;6;b;f;e;0;-;f;3;2;b;-;4;2;9;8;-;b;b;f;d;-;2;9;0;c;7;f;b;a;0;4;b;4,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:d;d;0;a;6;3;a;2;-;1;5;f;c;-;4;1;5;d;-;b;e;2;8;-;1;4;e;b;7;4;d;c;7;6;1;1,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:1.2883388,
+			float:yTopLeft:0.7077489,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.8752785;0.42472997;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:cellMarkSwitched,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
 		java.lang.String:ID:36bee48d-18f0-4a9c-9e27-8a7f2d562f10,
 		list:componentList:{
 			class:class:components.Connector,
@@ -970,7 +1130,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.117212355;0.62443125;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.0412623;0.6828424;1.0,
 			},
 		},
 		list:componentList:{
@@ -1029,12 +1189,17 @@
 				[C:value:6;b;7;1;7;0;6;e;-;9;9;6;5;-;4;7;c;a;-;9;4;a;8;-;7;2;d;d;d;2;c;6;1;1;c;c,
 
 			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;0;a;6;6;4;d;a;-;9;f;1;4;-;4;1;6;7;-;8;f;a;b;-;9;5;5;b;9;c;e;b;9;8;6;7,
+
+			},
 		},
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:0.74064034,
-			float:yTopLeft:0.74737483,
+			float:xTopLeft:0.745477,
+			float:yTopLeft:0.7339088,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -1045,7 +1210,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.18339345;0.44548216;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.33036312;0.4509888;1.0,
 			},
 		},
 		list:componentList:{
@@ -1113,8 +1278,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.4457849,
-			float:yTopLeft:1.1819489,
+			float:xTopLeft:1.3808354,
+			float:yTopLeft:1.5059339,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -1125,7 +1290,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.7635176;0.80300736;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.968125;1.2259344;1.0,
 			},
 		},
 		list:componentList:{
@@ -1174,6 +1339,86 @@
 	list:entityList:{
 		class:class:entity.Entity,
 
+		java.lang.String:ID:3b27b931-72fc-49ec-8f7c-8bb50a9bab9b,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:0,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;0;a;6;6;4;d;a;-;9;f;1;4;-;4;1;6;7;-;8;f;a;b;-;9;5;5;b;9;c;e;b;9;8;6;7,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:9;2;d;6;b;f;e;0;-;f;3;2;b;-;4;2;9;8;-;b;b;f;d;-;2;9;0;c;7;f;b;a;0;4;b;4,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:1.0182903,
+			float:yTopLeft:0.65538096,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.60420835;0.37216392;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Event.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:mapWithRightPressed,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
 		java.lang.String:ID:44fe594c-a747-4c07-a825-ae757bc5811b,
 		list:componentList:{
 			class:class:components.Connector,
@@ -1205,7 +1450,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.089461714;0.05217375;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.21090159;-0.015371472;1.0,
 			},
 		},
 		list:componentList:{
@@ -1280,7 +1525,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.010964394;0.31122276;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.08837131;0.30069533;1.0,
 			},
 		},
 		list:componentList:{
@@ -1370,7 +1615,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.23231612;0.35755464;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.18170087;0.3572251;1.0,
 			},
 		},
 		list:componentList:{
@@ -1460,7 +1705,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.22447807;-0.07856569;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.17213762;-0.17488723;1.0,
 			},
 		},
 		list:componentList:{
@@ -1540,7 +1785,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.290314;0.011141017;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.4559624;-0.06543569;1.0,
 			},
 		},
 		list:componentList:{
@@ -1620,7 +1865,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.11304915;-0.10261037;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.03618273;-0.20422424;1.0,
 			},
 		},
 		list:componentList:{
@@ -1676,7 +1921,7 @@
 			int:type:1,
 			list:inShapeIDs:{
 				class:class:java.lang.String,
-				[C:value:e;4;9;8;a;5;b;2;-;f;5;f;c;-;4;0;a;4;-;b;9;b;2;-;9;7;8;7;b;0;c;e;a;f;8;2,
+				[C:value:1;6;9;0;6;b;9;9;-;a;5;e;d;-;4;d;7;e;-;a;5;9;4;-;9;7;2;f;3;6;5;5;3;f;1;0,
 
 			},
 			list:outShapeIDs:{
@@ -1688,8 +1933,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:0.8901872,
-			float:yTopLeft:0.9339883,
+			float:xTopLeft:1.1635165,
+			float:yTopLeft:0.9339882,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -1700,7 +1945,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.30642608;0.5990095;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.749984;0.6518251;1.0,
 			},
 		},
 		list:componentList:{
@@ -1773,8 +2018,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.0168909,
-			float:yTopLeft:0.9449585,
+			float:xTopLeft:1.3037515,
+			float:yTopLeft:0.9876541,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -1785,7 +2030,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.41066548;0.60803473;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.89074945;0.70569396;1.0,
 			},
 		},
 		list:componentList:{
@@ -1848,8 +2093,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.5686734,
-			float:yTopLeft:0.71948683,
+			float:xTopLeft:1.8961275,
+			float:yTopLeft:1.1439322,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -1860,7 +2105,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.8646183;0.42253867;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;1.4853663;0.86256325;1.0,
 			},
 		},
 		list:componentList:{
@@ -1940,7 +2185,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.0843471;0.45241538;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.20466128;0.4729651;1.0,
 			},
 		},
 		list:componentList:{
@@ -2020,7 +2265,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.3601413;0.6558534;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.3376609;0.72118056;1.0,
 			},
 		},
 		list:componentList:{
@@ -2100,7 +2345,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.19350538;0.16094035;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.33784577;0.11733511;1.0,
 			},
 		},
 		list:componentList:{
@@ -2168,8 +2413,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.2929676,
-			float:yTopLeft:0.77017283,
+			float:xTopLeft:1.5974185,
+			float:yTopLeft:1.0665312,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -2180,7 +2425,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.6377945;0.46423814;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;1.1855274;0.78486943;1.0,
 			},
 		},
 		list:componentList:{
@@ -2260,7 +2505,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.10160732;0.44558427;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.022222519;0.4646304;1.0,
 			},
 		},
 		list:componentList:{
@@ -2345,7 +2590,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.009155512;0.11608696;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.09057835;0.062609315;1.0,
 			},
 		},
 		list:componentList:{
@@ -2394,6 +2639,86 @@
 	list:entityList:{
 		class:class:entity.Entity,
 
+		java.lang.String:ID:83e6e8b8-df4e-433c-b3dc-7fa00e2d6185,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:e;4;9;8;a;5;b;2;-;f;5;f;c;-;4;0;a;4;-;b;9;b;2;-;9;7;8;7;b;0;c;e;a;f;8;2,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:1;6;9;0;6;b;9;9;-;a;5;e;d;-;4;d;7;e;-;a;5;9;4;-;9;7;2;f;3;6;5;5;3;f;1;0,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.88998246,
+			float:yTopLeft:0.9186732,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.47541526;0.6364522;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eLogic.components.ColliderBox.hasCollided,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
 		java.lang.String:ID:8590595b-828b-44bc-8bc8-00b7b05867f7,
 		list:componentList:{
 			class:class:components.Connector,
@@ -2425,7 +2750,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.343595;0.17707244;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.3174727;0.13701797;1.0,
 			},
 		},
 		list:componentList:{
@@ -2500,7 +2825,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.3901371;-0.0065573156;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.577757;-0.0870295;1.0,
 			},
 		},
 		list:componentList:{
@@ -2549,6 +2874,166 @@
 	list:entityList:{
 		class:class:entity.Entity,
 
+		java.lang.String:ID:90a664da-9f14-4167-8fab-955b9ceb9867,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:3;9;b;c;d;f;5;f;-;9;c;1;4;-;4;e;8;4;-;8;3;8;4;-;1;6;3;f;3;d;2;a;f;2;e;2,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:3;b;2;7;b;9;3;1;-;7;2;f;c;-;4;9;e;c;-;8;f;7;c;-;8;b;b;5;0;a;9;b;a;b;9;b,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:0.8852813,
+			float:yTopLeft:0.68979406,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.4706963;0.4067072;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eLogic.components.ColliderBox.hasCollided,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
+		java.lang.String:ID:92d6bfe0-f32b-4298-bbfd-290c7fba04b4,
+		list:componentList:{
+			class:class:components.Connector,
+
+			int:type:1,
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:3;b;2;7;b;9;3;1;-;7;2;f;c;-;4;9;e;c;-;8;f;7;c;-;8;b;b;5;0;a;9;b;a;b;9;b,
+
+			},
+			list:outShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;7;b;e;6;d;0;c;-;3;b;0;e;-;4;3;3;e;-;a;6;4;4;-;7;c;a;4;f;d;3;a;2;6;4;6,
+
+			},
+		},
+		list:componentList:{
+			class:class:components.Transformation,
+
+			float:xTopLeft:1.1625849,
+			float:yTopLeft:0.6733357,
+			float:xWidth:0.1,
+			float:yHeight:0.08,
+			float:zPlane:1.0,
+			double:rotationCW:0.0,
+			float:rotationX:0.5,
+			float:rotationY:0.5,
+			object:affineTransform:{
+				class:class:math.M3f,
+
+				int:SIZE:9,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.7490488;0.39018658;1.0,
+			},
+		},
+		list:componentList:{
+			class:class:components.DraggableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.SelectableBox,
+
+			float:xTopLeft:0.0,
+			float:yTopLeft:0.0,
+			float:xWidth:1.0,
+			float:yHeight:1.0,
+			float:zPlane:0.0,
+		},
+		list:componentList:{
+			class:class:components.ImageSimple,
+
+			Image:image:Action.png,
+		},
+		list:componentList:{
+			class:class:components.Label,
+
+			[B:fontColor:-128;-128;127,
+			java.lang.String:fontName:null,
+			java.lang.String:text:eLogic.minefinder.Logic.switchMark,
+			int:textHorizontalAlignment:1,
+			int:textVerticalAlignment:1,
+			java.lang.String:inputFieldSeparator:\.,
+			java.lang.String:outputFieldSeparator:.,
+			[F:padding:0.1;0.1;0.1;0.1,
+			int:maxDisplayedLines:2147483647,
+			int:minDisplayedLines:1,
+			int:initialDisplayedLine:0,
+		},
+		java.lang.String:name:null,
+		java.lang.String:metaFileName:null,
+		java.lang.String:parentName:sShape,
+	},
+
+	list:entityList:{
+		class:class:entity.Entity,
+
 		java.lang.String:ID:94bd163b-ae8d-4c60-8442-9cff31d8f1e2,
 		list:componentList:{
 			class:class:components.Connector,
@@ -2575,7 +3060,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.22146343;-0.24729295;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.16845946;-0.3807521;1.0,
 			},
 		},
 		list:componentList:{
@@ -2675,7 +3160,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.23091143;0.538692;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.179987;0.57823145;1.0,
 			},
 		},
 		list:componentList:{
@@ -2755,7 +3240,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.11500797;0.14843881;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.03857267;0.102081925;1.0,
 			},
 		},
 		list:componentList:{
@@ -2835,7 +3320,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.35045916;0.46659574;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.3258477;0.4902666;1.0,
 			},
 		},
 		list:componentList:{
@@ -2915,7 +3400,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.2939315;0.14324191;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.4603761;0.09574118;1.0,
 			},
 		},
 		list:componentList:{
@@ -2995,7 +3480,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.0096078515;0.44962516;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.09002647;0.46956065;1.0,
 			},
 		},
 		list:componentList:{
@@ -3075,7 +3560,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.33877158;0.06480719;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.31158763;4.2647123E-5;1.0,
 			},
 		},
 		list:componentList:{
@@ -3143,8 +3628,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.1600085,
-			float:yTopLeft:0.8200802,
+			float:xTopLeft:1.4468691,
+			float:yTopLeft:1.0235126,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -3155,7 +3640,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.52840877;0.50529706;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;1.0344085;0.74168813;1.0,
 			},
 		},
 		list:componentList:{
@@ -3235,7 +3720,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.18687317;0.036729768;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.3297538;-0.034214735;1.0,
 			},
 		},
 		list:componentList:{
@@ -3340,7 +3825,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.49888772;0.22128177;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.506946;0.19095793;1.0,
 			},
 		},
 		list:componentList:{
@@ -3408,8 +3893,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:0.3757329,
-			float:yTopLeft:0.5974734,
+			float:xTopLeft:0.376539,
+			float:yTopLeft:0.59896964,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -3420,7 +3905,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.11681682;0.3221579;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.039970517;0.3155392;1.0,
 			},
 		},
 		list:componentList:{
@@ -3488,8 +3973,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.2953004,
-			float:yTopLeft:1.1699876,
+			float:xTopLeft:1.2114071,
+			float:yTopLeft:1.4537884,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -3500,7 +3985,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.63971364;0.79316676;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.79805577;1.1735916;1.0,
 			},
 		},
 		list:componentList:{
@@ -3564,6 +4049,11 @@
 				[C:value:6;0;7;3;1;a;3;1;-;0;d;2;3;-;4;a;a;8;-;9;2;9;e;-;1;1;a;5;1;f;0;c;a;9;f;5,
 
 			},
+			list:inShapeIDs:{
+				class:class:java.lang.String,
+				[C:value:2;7;b;e;6;d;0;c;-;3;b;0;e;-;4;3;3;e;-;a;6;4;4;-;7;c;a;4;f;d;3;a;2;6;4;6,
+
+			},
 			list:outShapeIDs:{
 				class:class:java.lang.String,
 				[C:value:d;9;f;6;5;c;f;f;-;c;b;f;7;-;4;0;c;c;-;9;0;f;6;-;2;3;c;2;9;7;b;7;9;5;0;7,
@@ -3573,8 +4063,8 @@
 		list:componentList:{
 			class:class:components.Transformation,
 
-			float:xTopLeft:1.1559266,
-			float:yTopLeft:1.1462054,
+			float:xTopLeft:1.0319526,
+			float:yTopLeft:1.371597,
 			float:xWidth:0.1,
 			float:yHeight:0.08,
 			float:zPlane:1.0,
@@ -3585,7 +4075,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.5250505;0.77360106;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.6179224;1.0910894;1.0,
 			},
 		},
 		list:componentList:{
@@ -3665,7 +4155,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.22965091;0.44909647;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.17844905;0.4689156;1.0,
 			},
 		},
 		list:componentList:{
@@ -3745,7 +4235,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.35083017;0.31551167;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.32630035;0.30592826;1.0,
 			},
 		},
 		list:componentList:{
@@ -3806,7 +4296,7 @@
 			},
 			list:outShapeIDs:{
 				class:class:java.lang.String,
-				[C:value:5;a;c;a;b;2;b;4;-;8;a;b;0;-;4;c;3;c;-;b;2;e;8;-;2;b;9;a;9;9;1;6;e;2;d;1,
+				[C:value:8;3;e;6;e;8;b;8;-;d;f;4;e;-;4;3;3;c;-;b;3;d;c;-;7;f;a;0;0;e;2;d;6;1;8;5,
 
 			},
 		},
@@ -3825,7 +4315,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.19332334;0.60230196;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.3376237;0.6558423;1.0,
 			},
 		},
 		list:componentList:{
@@ -3905,7 +4395,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.0144791305;0.615211;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.08408299;0.6715927;1.0,
 			},
 		},
 		list:componentList:{
@@ -3985,7 +4475,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;0.08885875;0.16060361;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.21016595;0.116924256;1.0,
 			},
 		},
 		list:componentList:{
@@ -4065,7 +4555,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.06738645;0.7642771;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;0.019530535;0.8534689;1.0,
 			},
 		},
 		list:componentList:{
@@ -4145,7 +4635,7 @@
 				class:class:math.M3f,
 
 				int:SIZE:9,
-				[F:arr:0.08227026;0.0;0.0;0.0;0.0658162;0.0;-0.22749278;0.1616284;1.0,
+				[F:arr:0.10037829;0.0;0.0;0.0;0.080302626;0.0;-0.1758159;0.11817461;1.0,
 			},
 		},
 		list:componentList:{

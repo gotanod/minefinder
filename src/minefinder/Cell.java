@@ -2,14 +2,20 @@ package minefinder;
 
 public class Cell {
 
-	private boolean hidden;  //  '#'
+	private boolean hidden;  	//  '#'
 	
-	private boolean isMine;  //  '*'
+	private boolean isMine;  	//  '*'
+	
+	private char mark;  		// ' ', 'F', '?'
+	private char markEmpty = ' ';
+	private char markFlag = 'F';
+	private char markQuestion = '?';
 	private int nearbyMines; 
 	
 	public Cell() {
 		this.isMine = false;
 		this.hidden = true;
+		this.mark = ' ';
 		this.nearbyMines = 0;
 	}
 
@@ -49,9 +55,29 @@ public class Cell {
 	public void unhide() {
 		this.hidden = false;
 	}
+
+	public char getMark() {
+		return mark;
+	}
+
+	public void setMark(char mark) {
+		this.mark = mark;
+	}
+
+	/**************************
+	 * METHODS
+	 **************************/	
 	
+	public boolean isUnmarked() {		
+		return this.mark==this.markEmpty;
+	}	
 	
-	
+	public void switchMark() {
+		if ( this.mark == this.markEmpty ) { this.mark = this.markFlag; }
+		else if ( this.mark == this.markFlag ) { this.mark = this.markQuestion; }
+		else if ( this.mark == this.markQuestion ) { this.mark = this.markEmpty; }
+	}
+
 	/**************************
 	 * TEXT DRAWING
 	 **************************/
@@ -60,7 +86,15 @@ public class Cell {
 		String out;
 	
 		if ( this.isHidden() ) {
-			out = "#"; 
+			if ( this.mark == this.markQuestion ) {
+				out = "?";
+			} else
+			if ( this.mark == this.markFlag ) {
+				out = "F";
+			} else {
+				// default
+				out = "#";
+			}
 		} else {
 			if ( this.isMine ) {
 				out = "*";
@@ -75,7 +109,6 @@ public class Cell {
 		
 		return out;
 	}
-
 
 
 	

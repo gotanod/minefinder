@@ -111,19 +111,32 @@ public class Logic {
 		return map;
 	}
 	
-	public void unhide(int row, int col) {
+	public void switchMark(int row, int col) {
 		// avoid unhide during WIN/LOST state
 		if ( this.state == LogicState.RUNING ) {
 			if ( col >= 0 && col < this.cols &&
 					row >= 0 && row < this.rows ) {
 				int pos = col + row * this.cols;
-				this.map[pos].unhide();	
-				if ( this.map[pos].getNearbyMines() == 0 ) {
-					clearArea8(pos);
-				}
+				this.map[pos].switchMark();	
 			}
-			// Change state
-			changeState(row, col);
+		}
+	}
+	
+	public void unhide(int row, int col) {
+		// avoid unhide during WIN/LOST state
+		if ( this.state == LogicState.RUNING ) {
+			boolean isInsideLimits = col >= 0 && col < this.cols && row >= 0 && row < this.rows;
+			if ( isInsideLimits ) {			
+				int pos = col + row * this.cols;
+				if ( this.map[pos].isUnmarked() ) {
+					this.map[pos].unhide();				
+					if ( this.map[pos].getNearbyMines() == 0 ) {
+						clearArea8(pos);
+					}
+					// Change state
+					changeState(row, col);
+				}				
+			}
 		}
 	}
 	
@@ -145,15 +158,6 @@ public class Logic {
 			}
 		}
 		return remaining;
-	}
-
-	private void unhide(int pos) {
-		if ( this.map[pos].getNearbyMines() == 0 
-				&& this.map[pos].isHidden() == true ) {
-			this.map[pos].unhide(); 		
-			clearArea8(pos);
-		}
-		this.map[pos].unhide(); 		
 	}
 	
 	private void clearArea8(int pos) {
@@ -185,7 +189,16 @@ public class Logic {
 		
 	}
 
+	private void unhide(int pos) {
+		if ( this.map[pos].getNearbyMines() == 0 
+				&& this.map[pos].isHidden() == true ) {
+			this.map[pos].unhide(); 		
+			clearArea8(pos);
+		}
+		this.map[pos].unhide(); 		
+	}
 
+	
 	/**************************
 	 * ACTIONS
 	 **************************/
@@ -212,9 +225,9 @@ public class Logic {
 	}
 	
 	public Object unhide(Object dataIn) {
-		double[] point = (double[]) dataIn;
-		float xMouse = (float) point[0];
-		float yMouse = (float) point[1];
+		double[] mePoint = (double[]) dataIn;
+		float xMouse = (float) mePoint[0];
+		float yMouse = (float) mePoint[1];
 		
 		
 		float cellWidth = 1.0f / this.cols;
@@ -224,6 +237,24 @@ public class Logic {
 		int row = (int) Math.floor(yMouse / cellHeight);
 		System.out.println("Unhide " + row + ", " + col);
 		unhide(row, col);		
+		
+		return true;
+	}
+	
+	public Object switchMark(Object dataIn) {
+		
+		double[] mePoint = (double[]) dataIn;
+		float xMouse = (float) mePoint[0];
+		float yMouse = (float) mePoint[1];
+		
+		float cellWidth = 1.0f / this.cols;
+		float cellHeight = 1.0f / this.rows;
+		
+		int col = (int) Math.floor(xMouse / cellWidth);
+		int row = (int) Math.floor(yMouse / cellHeight);
+		
+		System.out.println("Switch mark " + row + ", " + col);
+		switchMark(row, col);		
 		
 		return true;
 	}
@@ -237,6 +268,7 @@ public class Logic {
 		
 		return out;
 	}
+
 	
 	/**************************
 	 * TEXT DRAWING

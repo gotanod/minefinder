@@ -136,7 +136,7 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
-		java.lang.String:inputEventName:leftPointerPressed,
+		java.lang.String:inputEventName:mapPressed,
 		java.lang.String:actionEntityName:eLogic,
 		Class:actionComponentClass:minefinder.Logic,
 		java.lang.String:actionMethodName:unhide,
@@ -180,12 +180,45 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
+		java.lang.String:inputEventName:leftPointerPressed,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.ColliderBox,
+		java.lang.String:actionMethodName:hasCollided,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
 		java.lang.String:inputEventName:scene2Loaded,
 		java.lang.String:actionEntityName:eOut,
 		Class:actionComponentClass:components.Output,
 		java.lang.String:actionMethodName:linkOutputParameters,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:outputParametersLinked,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:rightPointerPressed,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.ColliderBox,
+		java.lang.String:actionMethodName:hasCollided,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapWithRightPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:mapWithRightPressed,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:switchMark,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:cellMarkSwitched,
 	},
 
 	list:ruleList:{
@@ -269,6 +302,17 @@
 		class:class:rules.Rule,
 
 		java.lang.String:inputEventName:cellUnhidden,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:getMap,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:cellMarkSwitched,
 		java.lang.String:actionEntityName:eLogic,
 		Class:actionComponentClass:minefinder.Logic,
 		java.lang.String:actionMethodName:getMap,
