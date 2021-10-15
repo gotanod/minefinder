@@ -6,4 +6,5 @@ eTickKey:scene2/tickKey.meta
 eTickMouse:scene2/tickMouse.meta
 eSound:scene2/sound.meta
 eLogic:scene2/logic.meta
+eButtonNew:scene2/buttonNew.meta
 eSceneOver:scene9/sceneLoader9.meta

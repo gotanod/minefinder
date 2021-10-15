@@ -8,5 +8,10 @@
 		enum:storageType:permanentStorage.PermanentStorageType.RESOURCE,
 	},
 	
+	list:componentList: {
+		class:class:components.Passthrough,
+		long:passDelay:9000000000,
+	},		
+	
 }
 		

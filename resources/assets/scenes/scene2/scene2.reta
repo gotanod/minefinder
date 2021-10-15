@@ -4,7 +4,7 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
-		java.lang.String:inputEventName:gameOver,
+		java.lang.String:inputEventName:gameOverDelayEnded,
 		java.lang.String:actionEntityName:eSceneOver,
 		Class:actionComponentClass:scene.Scene,
 		java.lang.String:actionMethodName:load,
@@ -76,6 +76,17 @@
 		java.lang.String:actionMethodName:isPointerPressed,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:leftPointerPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:won,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.Passthrough,
+		java.lang.String:actionMethodName:passDelayed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:delayedWon,
 	},
 
 	list:ruleList:{
@@ -169,12 +180,45 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
+		java.lang.String:inputEventName:newButtonPressed,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:startGame,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:delayedWon,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:startGame,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
 		java.lang.String:inputEventName:tickMouseUpdated,
 		java.lang.String:actionEntityName:eInMouse,
 		Class:actionComponentClass:components.MouseInput,
 		java.lang.String:actionMethodName:getRightButtonID,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:rightButtonIDGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:cellUnhidden,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:isWin,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:won,
 	},
 
 	list:ruleList:{
@@ -268,12 +312,56 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
+		java.lang.String:inputEventName:gameStarted,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:getMapDimensions,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapDimensionsGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:leftPointerPressed,
+		java.lang.String:actionEntityName:eButtonNew,
+		Class:actionComponentClass:components.ColliderBox,
+		java.lang.String:actionMethodName:hasCollided,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:newButtonPressed,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:mapDimensionsGot,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.MineFinderMap,
+		java.lang.String:actionMethodName:setMapDimensions,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:mapDimensionsSet,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
 		java.lang.String:inputEventName:cellUnhidden,
 		java.lang.String:actionEntityName:eLogic,
 		Class:actionComponentClass:minefinder.Logic,
 		java.lang.String:actionMethodName:isGameOver,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:gameOver,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:gameOver,
+		java.lang.String:actionEntityName:eSceneOver,
+		Class:actionComponentClass:components.Passthrough,
+		java.lang.String:actionMethodName:passDelayed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameOverDelayEnded,
 	},
 
 	list:ruleList:{

@@ -79,7 +79,7 @@ public class Logic {
 		boolean isLastCol = ( col == this.cols-1);
 		int row = pos / this.cols;
 		boolean isFirstRow = (row == 0);
-		boolean isLastRow = ( row == this.rows-1);
+		boolean isLastRow = ( row == this.rows-1);  
 		
 		// LEFT & RIGHT
 		if ( !isFirstCol ) { this.map[pos-1].increaseNearbyMines(); }
@@ -224,6 +224,11 @@ public class Logic {
 		return sb.toString();
 	}
 	
+	public Object getMapDimensions(Object datIn) {
+		int[] dimension = new int[] { this.rows, this.cols };
+		return dimension;
+	}
+	
 	public Object unhide(Object dataIn) {
 		double[] mePoint = (double[]) dataIn;
 		float xMouse = (float) mePoint[0];
@@ -268,10 +273,20 @@ public class Logic {
 		
 		return out;
 	}
+	
+	public Object isWin(Object dataIn) {
+		Boolean out = null;
+		
+		if ( this.state == LogicState.WIN ) {
+			out = true;
+		}
+		
+		return out;
+	}
 
 	
 	/**************************
-	 * TEXT DRAWING
+	 * TEXT DRAWING 
 	 **************************/
 	
 	public void drawMap() {
