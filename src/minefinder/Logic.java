@@ -122,6 +122,15 @@ public class Logic {
 		}
 	}
 	
+	private void showMines() {
+		for (int i=0; i<this.map.length; i++) {
+			Cell cell = this.map[i];
+			if ( cell.isMine() ) {
+				cell.unhide();
+			}
+		}
+	}
+	
 	public void unhide(int row, int col) {
 		// avoid unhide during WIN/LOST state
 		if ( this.state == LogicState.RUNING ) {
@@ -284,7 +293,21 @@ public class Logic {
 		return out;
 	}
 
+	public Object showMines(Object dataIn) {
+		
+		showMines();
+		
+		return true;
+	}
 	
+	public Object getRemainingCells(Object dataIn) {
+		
+		int rc = remainingHiddenCells() - this.numberMines; 
+		
+		return rc;
+	}
+
+
 	/**************************
 	 * TEXT DRAWING 
 	 **************************/

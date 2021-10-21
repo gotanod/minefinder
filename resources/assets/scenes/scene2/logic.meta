@@ -4,9 +4,9 @@
 	list:componentList: {
 		class:class:minefinder.Logic,
 		
-		Integer:rows:15,
+		Integer:rows:20,
 		Integer:cols:30,
-		Integer:numberMines:4,
+		Integer:numberMines:10,
 	},
 	
 	

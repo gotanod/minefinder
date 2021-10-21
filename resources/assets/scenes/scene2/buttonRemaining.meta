@@ -1,0 +1,37 @@
+{
+	class:class:entity.Entity,
+	
+	list:componentList: {
+		class:class:components.Transformation,
+		Float:xTopLeft:0.05,
+		Float:yTopLeft:0.01,
+		Float:xWidth:0.08,
+		Float:yHeight:0.08,
+		Float:zPlane:1.0,
+	},
+			
+	list:componentList: {
+		class:class:components.ImageAtlas,
+		Image:image:space_buttons.png,
+		int:index:47,
+		int:tilesPerRow:8,
+		int:tilesPerCol:8,		
+	},	
+	
+	list:componentList: {
+		class:class:components.Label,
+		String:text:0000,
+		ByteArray:fontColor:-128;-128;-128,
+		String:fontName:courier.ttf,
+		int:textHorizontalAlignment:0,
+		int:textVerticalAlignment:1,
+		String:inputFieldSeparator:\\n,
+		String:outputFieldSeparator:\\n,	
+		int:minDisplayedLines:1,
+		int:maxDisplayedLines:1,
+		int:initialDisplayedLine:0,	
+		FloatArray:padding:0.1;0.1;0.25;0.1,
+	},	
+	
+	
+}

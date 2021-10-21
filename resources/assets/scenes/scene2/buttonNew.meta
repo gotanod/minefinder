@@ -3,26 +3,26 @@
 	
 	list:componentList: {
 		class:class:components.Transformation,
-		Float:xTopLeft:0.01,
+		Float:xTopLeft:0.46,
 		Float:yTopLeft:0.01,
-		Float:xWidth:0.045,
-		Float:yHeight:0.06,
-		Float:zPlane:9.0,
+		Float:xWidth:0.08,
+		Float:yHeight:0.08,
+		Float:zPlane:1.0,
 	},
 	
 	list:componentList: {
 		class:class:components.ColliderBox,
-		Float:xTopLeft:0.01,
+		Float:xTopLeft:0.46,
 		Float:yTopLeft:0.01,
-		Float:xWidth:0.045,
-		Float:yHeight:0.06,
-		Float:zPlane:9.0,
+		Float:xWidth:0.08,
+		Float:yHeight:0.08,
+		Float:zPlane:1.0,
 	},
 		
 	list:componentList: {
 		class:class:components.ImageAtlas,
 		Image:image:space_buttons.png,
-		int:index:3,
+		int:index:18,
 		int:tilesPerRow:8,
 		int:tilesPerCol:8,
 		

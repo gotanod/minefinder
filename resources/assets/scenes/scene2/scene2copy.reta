@@ -279,6 +279,17 @@
 	list:ruleList:{
 		class:class:rules.Rule,
 
+		java.lang.String:inputEventName:delayedWon,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:minefinder.Logic,
+		java.lang.String:actionMethodName:startGame,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameStarted,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
 		java.lang.String:inputEventName:scene2Loaded,
 		java.lang.String:actionEntityName:eTickKey,
 		Class:actionComponentClass:components.Tick,
@@ -296,6 +307,17 @@
 		java.lang.String:actionMethodName:showMines,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:minesShown,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:won,
+		java.lang.String:actionEntityName:eLogic,
+		Class:actionComponentClass:components.Passthrough,
+		java.lang.String:actionMethodName:passDelayed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:delayedWon,
 	},
 
 	list:ruleList:{
@@ -340,28 +362,6 @@
 		java.lang.String:actionMethodName:start,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:timerStarted,
-	},
-
-	list:ruleList:{
-		class:class:rules.Rule,
-
-		java.lang.String:inputEventName:gameOver,
-		java.lang.String:actionEntityName:eButtonTimer,
-		Class:actionComponentClass:components.Timer,
-		java.lang.String:actionMethodName:stop,
-		object:ruleModifier:null,
-		java.lang.String:outputEventName:timeStopped,
-	},
-
-	list:ruleList:{
-		class:class:rules.Rule,
-
-		java.lang.String:inputEventName:won,
-		java.lang.String:actionEntityName:eButtonTimer,
-		Class:actionComponentClass:components.Timer,
-		java.lang.String:actionMethodName:stop,
-		object:ruleModifier:null,
-		java.lang.String:outputEventName:timeStopped,
 	},
 
 	list:ruleList:{
@@ -483,6 +483,17 @@
 		java.lang.String:actionMethodName:getMap,
 		object:ruleModifier:null,
 		java.lang.String:outputEventName:mapGot,
+	},
+
+	list:ruleList:{
+		class:class:rules.Rule,
+
+		java.lang.String:inputEventName:gameOver,
+		java.lang.String:actionEntityName:eSceneOver,
+		Class:actionComponentClass:components.Passthrough,
+		java.lang.String:actionMethodName:passDelayed,
+		object:ruleModifier:null,
+		java.lang.String:outputEventName:gameOverDelayEnded,
 	},
 
 	list:ruleList:{
